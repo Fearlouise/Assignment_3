@@ -7,7 +7,7 @@
 
    Calendar Style Sheet
    Author: Louise Fear
-   Date:   March 28 2023
+   Date:   March 30 2023
 
    Filename:   lht_tables.css
 
@@ -17,10 +17,25 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
-@media only screen and (max-width: 640px){
-  
-}
+@media only screen and (max-width: 640px) {
+   table, tbody, tr, td, th, caption {
+      display: block;
+   }
 
+   thead, h1 {
+      display: none;
+   }
+
+   caption {
+      color: white;
+      background-color: gray;
+      font-size: 1.5em;
+      height: 2em;
+      padding-top: 30px;
+   }
+
+
+}
 
 
 
