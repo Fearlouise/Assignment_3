@@ -21,4 +21,11 @@ article {
    column-gap: 20px;
    column-rule-style: solid;
    column-rule-color: rgb(154, 64,31);
+   column-rule-width: 1px;
+   widows: 2;
+   orphans: 2;
+}
+
+article h1 {
+   column-span: all;
 }
